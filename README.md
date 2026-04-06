@@ -2,7 +2,7 @@
 
 A simple collection of ER diagrams.
 
-(deployed link)[]
+[deployed link](https://ishan-parnami.github.io/DB-ER/)
 
 ---
 
