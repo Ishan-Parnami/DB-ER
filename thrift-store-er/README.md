@@ -4,6 +4,12 @@ ER diagram for an Instagram-based thrift and handmade products store.
 
 ---
 
+## Link
+```
+https://ishan-parnami.github.io/DB-ER/thrift-store-er/index.html
+```
+---
+
 ## What this covers
 
 - Products (thrifted and handmade, handled separately)
@@ -36,18 +42,3 @@ ER diagram for an Instagram-based thrift and handmade products store.
 - Order → Shipping : one to one
 - Product → ThriftedDetail : one to one
 - Product → HandmadeDetail : one to one
-
----
-
-## Files
-
-- `er-diagram.eraser` or `er-diagram.png` — the actual diagram
-
----
-
-## Notes for future use
-
-- When building the DB, use `product_type` field in Product to know whether to join ThriftedDetail or HandmadeDetail
-- OrderItem is the junction table for the many-to-many between Order and Product
-- Payment and Shipping are separate tables, both linked to Order via `order_id`
-- All PKs are named as `entity_id` (e.g. `customer_id`, `order_id`)
