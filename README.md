@@ -10,6 +10,7 @@ A simple collection of ER diagrams.
 
 | File | Description |
 |---|---|
-| `thrift-store-er.html` | ER diagram for an Instagram-based thrift and handmade store |
+| `thrift-store-er` | ER diagram for an Instagram-based thrift and handmade store |
+| `fitness-coaching-platform-er` | ER diagram for an Fitness coaching platform |
 
 ---
