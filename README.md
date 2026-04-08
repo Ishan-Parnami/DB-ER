@@ -12,5 +12,6 @@ A simple collection of ER diagrams.
 |---|---|
 | `thrift-store-er` | ER diagram for an Instagram-based thrift and handmade store |
 | `fitness-coaching-platform-er` | ER diagram for an Fitness coaching platform |
+| `clinic-platform-er` | ER diagram for clinic platform |
 
 ---
